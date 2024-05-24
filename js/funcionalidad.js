@@ -1,4 +1,3 @@
-import NombreDeLaClase from "./nombreDelPaquete/NombreDeLaClase.js";
 document.addEventListener
 (
     "DOMContentLoaded",
