@@ -59,7 +59,7 @@ document.addEventListener
                         event.target.setAttribute("style","background-color: rgba(8, 255, 115, 0.515); color:white;");
                     }
 
-                    if(event.target.id==="miNombre")
+                    if(event.target.id==="botonSobreMiNavbar")
                     {
                         event.target.setAttribute("style","background-color: rgba(120, 120, 120, 0.471); color:white;");
                     }
@@ -75,7 +75,7 @@ document.addEventListener
                         event.target.setAttribute("style","background-color:rgba(8, 255, 115, 0.768); color:black;");
                     }
 
-                    if(event.target.id==="miNombre")
+                    if(event.target.id==="botonSobreMiNavbar")
                     {
                         event.target.setAttribute("style","background-color: rgba(255, 255, 255, 0.686); color:black;");
                     }
