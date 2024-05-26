@@ -15,7 +15,7 @@
             "name": "Launch Edge",
             "request": "launch",
             "type": "msedge",
-            "url": "http://localhost:8080/portafolio/index.html",
+            "url": "http://localhost:8080/oscarArriaza.github.io/index.html",
             //"url": "http://localhost/prototipo0/index.html",
             "webRoot": "${workspaceFolder}"
         }
