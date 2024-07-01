@@ -137,76 +137,79 @@ document.addEventListener
                     }
                 }
             );
-            video1.addEventListener("timeupdate", function()
-            {
-                if (video1.currentTime >= segundoDePausa&&cancelarVisitaGuiada===false)
+            video1.addEventListener
+            (
+                "timeupdate",
+                function()
                 {
-                    video1.pause(); // Pausar el video en el segundo específico
-                    botonDesplegarPregunta.click(); // Mostrar el modal
+                    if (video1.currentTime >= segundoDePausa&&cancelarVisitaGuiada===false)
+                    {
+                        video1.pause(); // Pausar el video en el segundo específico
+                        botonDesplegarPregunta.click(); // Mostrar el modal
+                    }
+                    if(video1.currentTime>=segundoDeSeccionSobreMi&&cancelarVisitaGuiada===false)
+                    {
+                        botonSobreMiNavbar.click();
+                        segundoDeSeccionSobreMi=8940;
+                    }
+                    if(video1.currentTime>=segundoDeAutobiografia&&cancelarVisitaGuiada===false)
+                    {
+                        botonDesplegarAutobiografia.click();
+                        segundoDeAutobiografia=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionPortafolio&&cancelarVisitaGuiada===false)
+                    {
+                        botonPortafolioNavbar.click();
+                        segundoDeSeccionPortafolio=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionPortafolioDos&&cancelarVisitaGuiada===false)
+                    {
+                        botonSiguienteProyecto.click();
+                        segundoDeSeccionPortafolioDos=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionPortafolioTres&&cancelarVisitaGuiada===false)
+                    {
+                        botonSiguienteProyecto.click();
+                        segundoDeSeccionPortafolioTres=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionHabilidades&&cancelarVisitaGuiada===false)
+                    {
+                        botonHabilidadesNavbar.click();
+                        segundoDeSeccionHabilidades=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionHabilidadesDos&&cancelarVisitaGuiada===false)
+                    {
+                        botonSiguienteHabilidad.click();
+                        segundoDeSeccionHabilidadesDos=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionHabilidadesTres&&cancelarVisitaGuiada===false)
+                    {
+                        botonSiguienteHabilidad.click();
+                        segundoDeSeccionHabilidadesTres=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionHabilidadesCuatro&&cancelarVisitaGuiada===false)
+                    {
+                        botonSiguienteHabilidad.click();
+                        segundoDeSeccionHabilidadesCuatro=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionExperiencia&&cancelarVisitaGuiada===false)
+                    {
+                        botonExperienciaNavbar.click();
+                        segundoDeSeccionExperiencia=8940;
+                    }
+                    if(video1.currentTime>=segundoDeSeccionContacto&&cancelarVisitaGuiada===false)
+                    {
+                        botonContactoNavbar.click();
+                        segundoDeSeccionContacto=8940;
+                    }
+                    if(video1.currentTime>=segundoDeFinDeLaVisitaGuiada&&cancelarVisitaGuiada===false)
+                    {
+                        botonSobreMiNavbar.click();
+                        video1.pause();
+                        botonDesplegarVideo.click();
+                    }
                 }
-                if(video1.currentTime>=segundoDeSeccionSobreMi&&cancelarVisitaGuiada===false)
-                {
-                    botonSobreMiNavbar.click();
-                    segundoDeSeccionSobreMi=8940;
-                }
-                if(video1.currentTime>=segundoDeAutobiografia&&cancelarVisitaGuiada===false)
-                {
-                    botonDesplegarAutobiografia.click();
-                    segundoDeAutobiografia=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionPortafolio&&cancelarVisitaGuiada===false)
-                {
-                    botonPortafolioNavbar.click();
-                    segundoDeSeccionPortafolio=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionPortafolioDos&&cancelarVisitaGuiada===false)
-                {
-                    botonSiguienteProyecto.click();
-                    segundoDeSeccionPortafolioDos=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionPortafolioTres&&cancelarVisitaGuiada===false)
-                {
-                    botonSiguienteProyecto.click();
-                    segundoDeSeccionPortafolioTres=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionHabilidades&&cancelarVisitaGuiada===false)
-                {
-                    botonHabilidadesNavbar.click();
-                    segundoDeSeccionHabilidades=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionHabilidadesDos&&cancelarVisitaGuiada===false)
-                {
-                    botonSiguienteHabilidad.click();
-                    segundoDeSeccionHabilidadesDos=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionHabilidadesTres&&cancelarVisitaGuiada===false)
-                {
-                    botonSiguienteHabilidad.click();
-                    segundoDeSeccionHabilidadesTres=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionHabilidadesCuatro&&cancelarVisitaGuiada===false)
-                {
-                    botonSiguienteHabilidad.click();
-                    segundoDeSeccionHabilidadesCuatro=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionExperiencia&&cancelarVisitaGuiada===false)
-                {
-                    botonExperienciaNavbar.click();
-                    segundoDeSeccionExperiencia=8940;
-                }
-                if(video1.currentTime>=segundoDeSeccionContacto&&cancelarVisitaGuiada===false)
-                {
-                    botonContactoNavbar.click();
-                    segundoDeSeccionContacto=8940;
-                }
-                if(video1.currentTime>=segundoDeFinDeLaVisitaGuiada&&cancelarVisitaGuiada===false)
-                {
-                    botonSobreMiNavbar.click();
-                    video1.pause();
-                    botonDesplegarVideo.click();
-                }
-            });
-        
+            );
         }
     }
 );
